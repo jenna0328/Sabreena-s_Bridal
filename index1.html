@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Party RSVP</title>
+</head>
+<body>
+  <h1 id="welcome"></h1>
+  <p id="remaining"></p>
+
+<label for="guestCount">Number of guests attending:</label>
+<select id="guestCount"></select>
+
+<br><br>
+<button onclick="submitRSVP()">RSVP</button>
+
+  <div id="registry" style="display:none;">
+    <h2>Gift Registry</h2>
+    <a href="YOUR_REGISTRY_LINK">View Registry</a>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
